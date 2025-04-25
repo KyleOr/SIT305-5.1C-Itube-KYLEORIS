@@ -7,7 +7,8 @@ appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
-youtubePlayer = "1.2.2"
+youtubePlayerNew = "12.1.0"
+
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -17,7 +18,9 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-youtubeAndroidPlayer = { group = "com.google.android.youtube", name = "youtube-android-player-api", version.ref = "youtubePlayer" }
+youtubePlayer = { group = "com.pierfrancescosoffritti.androidyoutubeplayer", name = "core", version.ref = "youtubePlayerNew" }
+
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

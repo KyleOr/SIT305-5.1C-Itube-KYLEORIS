@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class PlaylistAdapter extends RecyclerView.Adapter<PlaylistAdapter.ViewHolder> {
 
-    private ArrayList<String> playlistUrls;
+    private final ArrayList<String> playlistUrls;
 
     public PlaylistAdapter(ArrayList<String> playlistUrls) {
         this.playlistUrls = playlistUrls;

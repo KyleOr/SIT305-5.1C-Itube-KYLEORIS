@@ -19,6 +19,9 @@
         <!-- Declare other activities -->
         <activity android:name=".SignupActivity" />
         <activity android:name=".PlaylistActivity" android:exported="true" />
+        <activity android:name=".HomeActivity" />
+
+
 
         <!-- Main Activity (Launch Activity) -->
         <activity
