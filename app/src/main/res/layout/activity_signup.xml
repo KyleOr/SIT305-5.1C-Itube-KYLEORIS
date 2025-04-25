@@ -14,7 +14,7 @@
             android:id="@+id/editTextFullName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Full Name"
+            android:hint="@string/Full_Name"
             android:inputType="textPersonName"
             android:layout_marginBottom="16dp" />
 
@@ -22,7 +22,7 @@
             android:id="@+id/editTextUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username"
+            android:hint="@string/Username"
             android:inputType="text"
             android:layout_marginBottom="16dp" />
 
@@ -30,7 +30,7 @@
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/Password"
             android:inputType="textPassword"
             android:layout_marginBottom="16dp" />
 
@@ -38,7 +38,7 @@
             android:id="@+id/editTextConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Confirm Password"
+            android:hint="@string/Confirm_Password"
             android:inputType="textPassword"
             android:layout_marginBottom="24dp" />
 
@@ -46,6 +46,6 @@
             android:id="@+id/buttonCreateAccount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Create Account" />
+            android:text="@string/Create_Account" />
     </LinearLayout>
 </ScrollView>

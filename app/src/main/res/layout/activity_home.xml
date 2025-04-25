@@ -12,7 +12,7 @@
         android:id="@+id/editTextYouTubeUrl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="YouTube URL"
+        android:hint="@string/YouTube_URL"
         android:inputType="textUri"
         android:layout_marginBottom="16dp" />
 
@@ -21,7 +21,7 @@
         android:id="@+id/buttonPlay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PLAY"
+        android:text="@string/PLAY"
         android:layout_marginBottom="16dp"/>
 
     <!-- Add to Playlist button -->
@@ -29,7 +29,7 @@
         android:id="@+id/buttonAddToPlaylist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ADD TO PLAYLIST"
+        android:text="@string/ADD_TO_PLAYLIST"
         android:layout_marginBottom="16dp"/>
 
     <!-- My Playlist button -->
@@ -37,5 +37,5 @@
         android:id="@+id/buttonMyPlaylist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MY PLAYLIST"/>
+        android:text="@string/MY_PLAYLIST"/>
 </LinearLayout>

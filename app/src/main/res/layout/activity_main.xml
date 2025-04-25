@@ -11,7 +11,7 @@
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username"
+        android:hint="@string/Username"
         android:inputType="textPersonName"
         android:layout_marginBottom="16dp"/>
 
@@ -19,7 +19,7 @@
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="@string/Password"
         android:inputType="textPassword"
         android:layout_marginBottom="24dp"/>
 
@@ -27,12 +27,12 @@
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="@string/LOGIN"
         android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/buttonSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SIGN UP"/>
+        android:text="@string/SIGN_UP"/>
 </LinearLayout>

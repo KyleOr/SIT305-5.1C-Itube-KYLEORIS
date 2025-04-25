@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Add INTERNET permission for YouTube API -->
+    <!-- Add internet permission for YouTube API -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -16,14 +16,11 @@
         android:theme="@style/Theme.Itube"
         tools:targetApi="31">
 
-        <!-- Declare other activities -->
         <activity android:name=".SignupActivity" />
         <activity android:name=".PlaylistActivity" android:exported="true" />
         <activity android:name=".HomeActivity" />
 
 
-
-        <!-- Main Activity (Launch Activity) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">

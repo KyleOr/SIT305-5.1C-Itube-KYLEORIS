@@ -2,4 +2,15 @@
     <string name="app_name">Itube</string>
     <string name="My_Playlist">My Playlist</string>
     <string name="Back">Back</string>
+    <string name="YouTube_URL">YouTube URL</string>
+    <string name="PLAY">PLAY</string>
+    <string name="ADD_TO_PLAYLIST">ADD TO PLAYLIST</string>
+    <string name="MY_PLAYLIST">MY PLAYLIST</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="SIGN_UP">SIGN UP</string>
+    <string name="Full_Name">Full Name</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Create_Account">Create Account</string>
 </resources>
