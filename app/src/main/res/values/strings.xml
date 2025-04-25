@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Itube</string>
+    <string name="My_Playlist">My Playlist</string>
+    <string name="Back">Back</string>
 </resources>

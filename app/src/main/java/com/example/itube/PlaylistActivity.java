@@ -2,13 +2,13 @@ package com.example.itube;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class PlaylistActivity extends AppCompatActivity {
 
@@ -33,21 +33,14 @@ public class PlaylistActivity extends AppCompatActivity {
         String urls = sharedPref.getString("urls", "");
         if (!urls.isEmpty()) {
             String[] urlArray = urls.split(";");
-            for (String url : urlArray) {
-                playlistUrls.add(url);
-            }
+            Collections.addAll(playlistUrls, urlArray); // Bulk add
         }
 
         // Initialize the adapter
         playlistAdapter = new PlaylistAdapter(playlistUrls);
         recyclerView.setAdapter(playlistAdapter);
 
-        // Back button action
-        buttonBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish(); // Go back to HomeActivity
-            }
-        });
+        // Back button action using lambda
+        buttonBack.setOnClickListener(v -> finish());
     }
 }

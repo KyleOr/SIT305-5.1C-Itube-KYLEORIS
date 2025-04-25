@@ -37,9 +37,8 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 
+
     // YouTube Player API
     implementation libs.youtubePlayer
-
-
-
+    implementation libs.recyclerview
 }

@@ -9,11 +9,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Playlist"
+        android:text="@string/My_Playlist"
         android:textSize="24sp"
         android:layout_marginBottom="16dp"/>
 
-    <RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -23,5 +23,6 @@
         android:id="@+id/buttonBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Back"/>
+        android:text="@string/Back"/>
+
 </LinearLayout>
